@@ -71,11 +71,10 @@ class App(customtkinter.CTk):
         posteg = (total / 250 * 2.4) + 4
         postef = total / 12 * 2.2
         varilla = total / 2
-        alambre = total / 17 * 7
         texto1 = f"{numero1} x {numero2} se nececitan {posteg} postes gruesos"
         texto2 =  f"{postef} postes finos"
         texto3 = f"{varilla} varillas"
-        texto4 = f"  {alambre} metros de alambre para {total} metros"
+        texto4 = f"{total} metros de alambre para {total} metros"
         alert("part1", texto1)
         alert("part2", texto2)
         alert("part3", texto3)
